@@ -1,0 +1,89 @@
+/* Web.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    background: linear-gradient(to bottom, #79f2ec, #14518e);
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Login container styles */
+  .login-container {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #080d0d, #173b4d);
+    border-radius: 16px;
+  }
+  
+  /* Logo container styles */
+  .logo-container {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+  }
+  
+  /* Logo styles */
+  .logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 4px;
+  }
+  
+  /* Login section styles */
+  .login-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+  }
+  
+  /* Input field styles */
+  .input-field {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+    width: 80%;
+    max-width: 60%;
+    background: black;
+    color: white;
+  }
+  
+  /* Checkbox styles */
+  .checkbox {
+    /* Add your checkbox styles here */
+  }
+  
+  /* Terms text styles */
+  .terms-text {
+    color: white;
+    margin-left: 8px;
+  }
+  
+  /* Login button styles */
+  .login-button {
+    background: #2196F3;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 60%;
+  }
+  
